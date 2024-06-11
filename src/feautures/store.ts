@@ -4,6 +4,7 @@ import PizzasSlice from './slices/PizzasSlice'
 import cartSlice from './slices/cartSlice'
 import { useDispatch } from 'react-redux'
 
+
 export const store = configureStore({
     reducer: {
         filter: filterSlice,
