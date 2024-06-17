@@ -9,6 +9,7 @@ type CategoriesProps = {
     selectCategoryIndexActive: number
 }
 
+
 const Categories: React.FC<CategoriesProps> = ({selectCategoryIndexActive}) => {
     console.log(selectCategoryIndexActive);
     
