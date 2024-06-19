@@ -13,8 +13,6 @@ import MainOutlet from "./outlets/MainOutlet";
 
 
 function App() {
-
-
     return (
 
         <Routes>
